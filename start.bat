@@ -1,0 +1,1 @@
+node local.js -s shadowsocksproxy.herokuapp.com -l 1080 -m rc4-md5 -k 99666 -r 80
