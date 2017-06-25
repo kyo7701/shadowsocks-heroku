@@ -2,7 +2,7 @@
 (function() {
   var Encryptor, KEY, LOCAL_ADDRESS, METHOD, PORT, WebSocket, WebSocketServer, config, configContent, configFile, configFromArgs, fs, http, inetNtoa, k, net, options, parseArgs, path, ref, server, timeout, v, wss;
 
-  newrelic = require('newrelic');
+  require('newrelic');
 
   net = require("net");
 
